@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+/* body{
+  max-width: 1200px;
+  margin: 0 auto;
+} */
+
+div.h-100 {
+  background-color: dodgerblue;
+  text-align: center;
+}
+
+div.h-100 .h-50 {
+  background-color: forestgreen;
+  align-self: center;
+  outline: 3px solid dodgerblue;
+  outline-offset: -3px;
+}
+
+.inner-outline {
+  outline: 3px solid white;
+  outline-offset: -3px;
+}
